@@ -1,0 +1,83 @@
+/* 1. Write a selector to target the h1 in the first “hero” section */
+
+div.jumbotron div.col-md-6 h1.display-4 {
+  border: 2px yellow solid;
+  border-radius: 5px;
+}
+
+/* 2. Write a selector to target every children of the navbar */
+nav.nav.d-flex.justify-content-between.mb-2 * {
+  color: orange;
+}
+
+/* OR an alternative solution */
+
+/* nav.nav.d-flex.justify-content-between.mb-2 > span {
+  color: green;
+} */
+
+/*3. Write a selector to target the “continue reading…” inside the jumbotron */
+
+div.jumbotron.p-4.p-md-5.rounded
+  div.col-md-6.px-0
+  p.lead.mb-0
+  a.font-weight-bold {
+  border: 2px solid pink;
+  border-radius: 5px;
+}
+
+/*4. Write a selector to target the first blogpost */
+
+.blog-post:first-of-type {
+  background-color: lightgreen;
+}
+
+/*5. Write a selector to target the first blogpost <hr> and turn it red */
+
+.blog-post hr:first-of-type {
+  border: 2px solid blueviolet;
+}
+
+/*6. Write a selector to target the “even” links in the navbar */
+
+nav.nav.d-flex.justify-content-between.mb-2 *:nth-child(even) {
+  border: 2px solid green;
+  border-radius: 5px;
+}
+
+/*7. Write a selector to target all the <li> into the first ordered-list in the sidebar ( Archives ) */
+
+aside.col-md-4.blog-sidebar div.p-4 ol.list-unstyled.mb-0 > li {
+  border: 2px solid purple;
+  background-color: lightpink;
+}
+
+/*8. Write a selector to target the second blog-post author */
+
+.blog-post:nth-of-type(2) p.blog-post-meta a[href="#"] {
+  background-color: lightblue;
+}
+
+/*9. Write a selector to target the second <li> in the third blog-post unordered-list */
+
+.blog-post:nth-of-type(3) ul li:nth-of-type(2) {
+  background-color: red;
+}
+
+/*10. Write a selector to target the “back to top” link you can find at the bottom-right corner */
+
+a[href="#"].float-right.mb-3.mr-3 {
+  background-color: aquamarine;
+}
+
+/*11. Write a selector to target the “Newer” button at the bottom */
+
+nav.blog-pagination a.btn.btn-outline-secondary.disabled {
+  background-color: aqua;
+}
+
+/*12. Write a selector to target the footer’s second link */
+
+footer.blog-footer a:nth-of-type(2) {
+  background-color: brown;
+}
