@@ -18,10 +18,8 @@ nav.nav.d-flex.justify-content-between.mb-2 * {
 
 /*3. Write a selector to target the “continue reading…” inside the jumbotron */
 
-div.jumbotron.p-4.p-md-5.rounded
-  div.col-md-6.px-0
-  p.lead.mb-0
-  a.font-weight-bold {
+div.jumbotron.p-4.p-md-5.rounded a,
+div.col.p-4.d-flex.flex-column.position-static a {
   border: 2px solid darkgreen;
   border-radius: 5px;
 }
@@ -35,7 +33,7 @@ div.jumbotron.p-4.p-md-5.rounded
 /*5. Write a selector to target the first blogpost <hr> and turn it red */
 
 .blog-post hr:first-of-type {
-  border: 2px solid rgb(175, 124, 223);
+  border: 2px solid red;
 }
 
 /*6. Write a selector to target the “even” links in the navbar */
