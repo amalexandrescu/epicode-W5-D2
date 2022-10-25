@@ -15,7 +15,7 @@ const heading = document.querySelector(
   "main.container div.row div.col-md-8.blog-main h2:nth-of-type(2)"
 );
 
-heading.style.color = "red";
+heading.style.color = "darkgreen";
 
 //15. Write a JavaScript functionality to change the background of the jumbotron
 
@@ -54,7 +54,7 @@ const parent = document.querySelector(
   "main.container div.row div.col-md-8.blog-main div.blog-post:nth-of-type(3)"
 );
 
-parent.style.backgroundColor = "cyan";
+parent.style.backgroundColor = "greenyellow";
 const newBlogPost = document.createElement("div");
 // newBlogPost.classList.add("blog-post");
 newBlogPost.style.backgroundColor = "lavender";
