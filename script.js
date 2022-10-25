@@ -104,11 +104,11 @@ for (let i = 0; i < authorsList.length; i++) {
 //21. EXTRA Write a JavaScript functionality that will remove the corresponding parent card from the DOM, upon
 //    clicking on their “Continue reading” link
 
-// const aTagList = document.querySelectorAll("a");
+const aTagList = document.querySelectorAll("a");
 
 // console.log(aTagList);
 
-for (const a of document.querySelectorAll("a")) {
+for (const a of aTagList) {
   if (a.textContent.includes("Continue reading")) {
     a.addEventListener("click", () => {
       const cardToRemove = a.parentElement;
