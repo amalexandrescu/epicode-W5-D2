@@ -22,7 +22,7 @@ div.jumbotron.p-4.p-md-5.rounded
   div.col-md-6.px-0
   p.lead.mb-0
   a.font-weight-bold {
-  border: 2px solid pink;
+  border: 2px solid darkgreen;
   border-radius: 5px;
 }
 
@@ -35,13 +35,13 @@ div.jumbotron.p-4.p-md-5.rounded
 /*5. Write a selector to target the first blogpost <hr> and turn it red */
 
 .blog-post hr:first-of-type {
-  border: 2px solid blueviolet;
+  border: 2px solid rgb(175, 124, 223);
 }
 
 /*6. Write a selector to target the “even” links in the navbar */
 
 nav.nav.d-flex.justify-content-between.mb-2 *:nth-child(even) {
-  border: 2px solid green;
+  border: 2px solid rgb(234, 121, 80);
   border-radius: 5px;
 }
 
@@ -49,7 +49,7 @@ nav.nav.d-flex.justify-content-between.mb-2 *:nth-child(even) {
 
 aside.col-md-4.blog-sidebar div.p-4 ol.list-unstyled.mb-0 > li {
   border: 2px solid purple;
-  background-color: lightpink;
+  background-color: rgb(249, 255, 182);
 }
 
 /*8. Write a selector to target the second blog-post author */
@@ -61,7 +61,7 @@ aside.col-md-4.blog-sidebar div.p-4 ol.list-unstyled.mb-0 > li {
 /*9. Write a selector to target the second <li> in the third blog-post unordered-list */
 
 .blog-post:nth-of-type(3) ul li:nth-of-type(2) {
-  background-color: red;
+  background-color: rgb(76, 172, 116);
 }
 
 /*10. Write a selector to target the “back to top” link you can find at the bottom-right corner */
@@ -73,11 +73,11 @@ a[href="#"].float-right.mb-3.mr-3 {
 /*11. Write a selector to target the “Newer” button at the bottom */
 
 nav.blog-pagination a.btn.btn-outline-secondary.disabled {
-  background-color: aqua;
+  background-color: rgb(118, 234, 234);
 }
 
 /*12. Write a selector to target the footer’s second link */
 
 footer.blog-footer a:nth-of-type(2) {
-  background-color: brown;
+  background-color: rgb(169, 217, 238);
 }
